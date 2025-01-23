@@ -1,0 +1,7 @@
+### *what is the more sustainable in atom ?? electron /proton /neutron??*
+
+*Answer:* **Yes**. An electron has no internal structure, and is the lightest fundamental particle with a non-zero electric charge. Therefore it cannot spontaneously decay into a lighter particle without violating charge conservation. So any transformation of an electron must either involve adding a large amount of energy to it, or an interaction with another particle (e.g. [electron capture](https://en.wikipedia.org/wiki/Electron_capture) or [electron-positron annihilation](https://en.wikipedia.org/wiki/Electron%E2%80%93positron_annihilation)).
+
+- Protons and neutrons, however, are made up of quarks. Outside of a nucleus, a free neutron [spontaneously decays](https://en.wikipedia.org/wiki/Free_neutron_decay) into a proton, an electron and a #Neutrino, with a half-life of about 14 minutes. A free proton does not spontaneously decay in a similar way (as far as we know) because its mass is slightly less than the mass of a neutron. However, both neutrons and protons inside unstable nuclei can spontaneously decay via [beta decay](https://en.wikipedia.org/wiki/Beta_decay).
+
+- #Neutrino  : Neutrinos are **the most abundant particles that have mass in the universe**. Every time atomic nuclei come together (like in the sun) or break apart (like in a nuclear reactor), they produce neutrinos. Even a banana emits neutrinos—they come from the natural radioactivity of the potassium in the fruit.

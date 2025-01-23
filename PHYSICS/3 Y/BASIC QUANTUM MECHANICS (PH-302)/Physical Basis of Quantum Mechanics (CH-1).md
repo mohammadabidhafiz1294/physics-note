@@ -1,0 +1,2 @@
+#### Observables & Operator
+In classical mechanics, an observable is a real-valued "function" on the set of all possible system states, e.g., position and momentum. In quantum mechanics, **an observable is an operator, or gauge, where the property of the quantum state can be determined by some sequence of operations**.

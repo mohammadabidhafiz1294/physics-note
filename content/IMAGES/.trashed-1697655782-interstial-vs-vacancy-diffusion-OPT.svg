@@ -1,0 +1,106 @@
+<svg width="1920" height="1080" version="1.1" viewBox="0 0 508 285.75" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<radialGradient id="b" cx="163.27" cy="86.551" r="254" gradientTransform="matrix(1.2399 .63772 -.25731 .5002 -16.901 -31.298)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#f9f9f9" offset="0"/>
+<stop stop-color="#e6e6e6" offset="1"/>
+</radialGradient>
+<radialGradient id="a" cx="113.97" cy="131.26" r="4.161" gradientTransform="matrix(-1.2772 -.016316 .016733 -1.3098 251.34 299.12)" gradientUnits="userSpaceOnUse">
+<stop stop-color="#800080" offset="0"/>
+<stop stop-color="#800080" stop-opacity=".99024" offset=".52341"/>
+<stop stop-color="#800080" stop-opacity="0" offset="1"/>
+</radialGradient>
+</defs>
+<g>
+<rect transform="translate(0 -11.25)" x="5" y="16.25" width="498" height="275.75" fill="url(#b)" style="paint-order:stroke fill markers"/>
+</g>
+<g transform="translate(0 -11.25)">
+<text x="253.83095" y="44.282021" fill="#000000" font-family="'TeX Gyre Adventor'" font-size="24.816px" letter-spacing="0px" stroke-width=".4653" text-align="center" text-anchor="middle" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="253.83095" y="44.282021" stroke-width=".4653">Interstitial vs Vacancy Diffusion</tspan></text>
+<g transform="translate(-18.611)">
+<g fill="#fc0" stroke="#000" stroke-linecap="round">
+<circle cx="63.075" cy="80.439" r="12.634"/>
+<circle cx="93.008" cy="80.439" r="12.634"/>
+<circle cx="122.94" cy="80.439" r="12.634"/>
+<circle cx="152.87" cy="80.439" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-63.075" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-63.075" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-63.075" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-93.008" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-93.008" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-93.008" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-122.94" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-122.94" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-122.94" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-152.87" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-152.87" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-152.87" r="12.634"/>
+</g>
+<g fill="#800080" stroke="#000" stroke-linecap="round" stroke-width=".632">
+<g fill-opacity=".18537" stroke-dasharray="2.52800022, 2.52800022">
+<circle cx="78.041" cy="95.405" r="7.9841"/>
+<circle cx="137.91" cy="95.405" r="7.9841"/>
+<circle cx="107.97" cy="95.405" r="7.9841"/>
+<circle cx="78.041" cy="125.34" r="7.9841"/>
+</g>
+<circle cx="107.97" cy="125.34" r="7.9841"/>
+<g fill-opacity=".18537" stroke-dasharray="2.52800022, 2.52800022">
+<circle cx="78.041" cy="155.27" r="7.9841"/>
+<circle cx="107.97" cy="155.27" r="7.9841"/>
+<circle cx="137.91" cy="125.34" r="7.9841"/>
+<circle cx="137.91" cy="155.27" r="7.9841"/>
+</g>
+</g>
+<g fill="#f00" shape-rendering="auto" stroke="#000" stroke-width="1.0623">
+<path d="m107.97 95.405-3.8798 3.4317 1.4067 1.5893 1.3777-1.22v25.009h2.1245v-24.855l1.0664 1.0332 1.4772-1.5229z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m137.91 125.34-3.4317-3.8798-1.5893 1.4067 1.22 1.3777h-25.009v2.1245h24.855l-1.0332 1.0664 1.5229 1.4772z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m78.041 125.34 3.4317-3.8798 1.5893 1.4067-1.22 1.3777h25.009v2.1245h-24.855l1.0332 1.0664-1.5229 1.4772z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m107.97 155.27-3.8798-3.4317 1.4067-1.5893 1.3777 1.22v-25.009h2.1245v24.855l1.0664-1.0332 1.4772 1.5229z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+<circle cx="107.97" cy="125.34" r="4.161" fill="url(#a)"/>
+</g>
+<g transform="translate(16.62)" stroke="#000">
+<g fill="#fc0" stroke-linecap="round">
+<g>
+<circle cx="326.18" cy="80.439" r="12.634"/>
+<circle cx="356.12" cy="80.439" r="12.634"/>
+<circle cx="386.05" cy="80.439" r="12.634"/>
+<circle cx="415.98" cy="80.439" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-326.18" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-326.18" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-326.18" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-356.12" r="12.634"/>
+</g>
+<circle transform="rotate(90)" cx="140.3" cy="-356.04" r="12.634" fill-opacity=".29268" stroke-dasharray="4, 4"/>
+<g>
+<circle transform="rotate(90)" cx="170.24" cy="-356.12" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-386.05" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-386.05" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-386.05" r="12.634"/>
+<circle transform="rotate(90)" cx="110.37" cy="-415.98" r="12.634"/>
+<circle transform="rotate(90)" cx="140.3" cy="-415.98" r="12.634"/>
+<circle transform="rotate(90)" cx="170.24" cy="-415.98" r="12.634"/>
+</g>
+</g>
+<g fill="#f00" shape-rendering="auto" stroke-width="1.0623">
+<path d="m361.23 140.3 3.4317-3.8798 1.5893 1.4067-1.22 1.3777h25.009v2.1245h-24.855l1.0332 1.0664-1.5229 1.4772z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m350.85 140.3-3.4317-3.8798-1.5893 1.4067 1.22 1.3777h-25.009v2.1245h24.855l-1.0332 1.0664 1.5229 1.4772z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m356.19 134.96-3.8798-3.4317 1.4067-1.5893 1.3777 1.22v-25.009h2.1245v24.855l1.0664-1.0332 1.4772 1.5229z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+<path d="m356.19 145.34-3.8798 3.4317 1.4067 1.5893 1.3777-1.22v25.009h2.1245v-24.855l1.0664 1.0332 1.4772-1.5229z" color="#000000" color-rendering="auto" dominant-baseline="auto" image-rendering="auto" solid-color="#000000" style="font-feature-settings:normal;font-variant-alternates:normal;font-variant-caps:normal;font-variant-ligatures:normal;font-variant-numeric:normal;font-variant-position:normal;isolation:auto;mix-blend-mode:normal;shape-padding:0;text-decoration-color:#000000;text-decoration-line:none;text-decoration-style:solid;text-indent:0;text-orientation:mixed;text-transform:none;white-space:normal"/>
+</g>
+</g>
+<g fill="#000000" font-family="'TeX Gyre Adventor'" font-size="14.111px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px">
+<text x="30.370434" y="202.90518" style="line-height:1.25" xml:space="preserve"><tspan x="30.370434" y="202.90518" font-weight="bold" stroke-width=".26458">Interstitial Diffusion</tspan></text>
+<text x="30.737324" y="228.68459" style="line-height:1.25" xml:space="preserve"><tspan x="30.737324" y="228.68459">One interstitial atom</tspan><tspan x="30.737324" y="246.32347">can move to many empty</tspan><tspan x="30.737324" y="263.96237">interstitial sites</tspan></text>
+<text x="329.55621" y="202.90518" style="line-height:1.25" xml:space="preserve"><tspan x="329.55621" y="202.90518" font-weight="bold" stroke-width=".26458">Vacancy Diffusion</tspan></text>
+</g>
+<circle cx="182.85" cy="223.21" r="7.9841" fill="#800080" stroke="#000" stroke-linecap="round" stroke-width=".632"/>
+<circle cx="137.22" cy="258.57" r="7.9841" fill="#800080" fill-opacity=".18537" stroke="#000" stroke-dasharray="2.52800022, 2.52800022" stroke-linecap="round" stroke-width=".632"/>
+<text x="329.55621" y="228.68459" fill="#000000" font-family="'TeX Gyre Adventor'" font-size="14.111px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="329.55621" y="228.68459">Many host atoms</tspan><tspan x="329.55621" y="246.32347">can move to one empty</tspan><tspan x="329.55621" y="263.96237">vacancy</tspan></text>
+<g stroke="#000" stroke-linecap="round">
+<circle transform="rotate(90)" cx="263.1" cy="-408.83" r="12.634" fill="#fc0" fill-opacity=".29268" stroke-dasharray="4, 4"/>
+<circle transform="rotate(90)" cx="221.89" cy="-464.55" r="12.634" fill="#fc0"/>
+<rect x="162.85" y="78.117" width="156.16" height="89.528" rx="10.55" ry="10.55" fill="#800080" fill-opacity=".29268"/>
+</g>
+<text x="167.93573" y="92.676788" fill="#000000" font-family="'TeX Gyre Adventor'" font-size="14.111px" letter-spacing="0px" stroke-width=".26458" word-spacing="0px" style="line-height:1.25" xml:space="preserve"><tspan x="167.93573" y="92.676788">Interstitial atoms are </tspan><tspan x="167.93573" y="110.31567">surrounded by empty</tspan><tspan x="167.93573" y="127.95457">space so they usually</tspan><tspan x="167.93573" y="145.69225">diffuse <tspan font-weight="bold">much faster</tspan></tspan><tspan x="167.93573" y="163.33113">than host atoms.</tspan></text>
+</g>
+<rect transform="scale(-1,1)" x="-505.5" y="2.5" width="503" height="280.75" fill="none" stroke="#000" stroke-linecap="round" stroke-width="5" style="paint-order:stroke fill markers"/>
+</svg>
