@@ -105,14 +105,16 @@ Think of the circuit like a **water faucet**:
 - The **error amplifier** is your brain, adjusting the faucet handle to keep the water level constant.  
 ---
 #### **Simplified Formula**
-The output voltage is determined by the Zener voltage and the feedback resistors:  
+The output voltage is determined by the Zener voltage and the feedback resistors:
+
 $$V_{\text{out}} = V_{\text{zener}} \left(1 + \frac{R_1}{R_2}\right)$$
 *(This assumes the error amplifier is ideal and has no voltage drop.)*  
 
 ---
 #### **Example**
-If \($V_{\text{zener}} = 5.6V$\), \($R_1 = 1k\Omega$\), and \($R_2 = 1k\Omega$\):  
-$V_{\text{out}} = 5.6V \left(1 + \frac{1k}{1k}\right) = 11.2V$
+
+If ($V_{\text{zener}} = 5.6V$), ($R_1 = 1k\Omega$), and ($R_2 = 1k\Omega$):  
+$$V_{\text{out}} = 5.6V \left(1 + \frac{1k}{1k}\right) = 11.2V$$
 ---
 #### **Summary**
 - The circuit uses a transistor as a variable resistor to drop excess voltage.  
