@@ -76,10 +76,9 @@ Let's assume a simplified scenario where all energy transferred from a single ph
 - $m$ as the mass of an electron ($9.11 \times 10^{-31} kg$),
     
 - $\Delta E$ as the energy transferred from a photon,
-    
 - $$Δp=ΔEc\Delta p = \frac{\Delta E}{c}Δp=cΔE$$ as the corresponding change in momentum,
 then using Newton's second law for instantaneous force:
-$$a=Fm=Δp/tm=ΔE/(ct)ma = \frac{F}{m} = \frac{\Delta p / t}{m} = \frac{\Delta E / (ct)}{m}a=mF=mΔp/t=mΔE/(ct)$$
+$$a=\frac{F}{m} = \frac{\Delta p / t}{m} = \frac{\Delta E / (ct)}{m}a$$
 Here, $t$ is a very short time over which this interaction occurs (essentially instantaneous).
 
 However, without specific values for $\Delta E$ or $t$, we cannot compute exact numerical values for acceleration directly from these equations.
