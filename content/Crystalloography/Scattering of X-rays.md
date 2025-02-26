@@ -1,12 +1,25 @@
 ### what is the main difference between x-rays & gamma-rays?
-We need X-rays instead of visible light to analyze the structure of materials for several reasons:
+The main differences between X-rays and gamma rays are as follows:
 
-1. **Wavelength and Energy**: X-rays have a much shorter wavelength (0.01 to 10 nm) compared to visible light, which allows them to interact with the atomic structure of materials effectively[1](https://www.cif.iastate.edu/services/acide/xrd-tutorial/xraysinchem)[2](https://www2.tulane.edu/~sanelson/eens211/x-ray.htm). This short wavelength is comparable to inter-atomic distances in crystals, enabling detailed structural analysis through diffraction patterns[1](https://www.cif.iastate.edu/services/acide/xrd-tutorial/xraysinchem).
+1. **Origin**:
+    - **X-rays** are produced outside the nucleus, typically when electrons are accelerated or decelerated, such as in X-ray tubes[3](https://www.epa.gov/radiation/radiation-basics)[4](https://publications.iarc.fr/_publications/media/download/2486/35592eb73037d8ed1316c57c7f01688ffc21864b.pdf).
+        
+    - **Gamma rays** originate from within the nucleus during radioactive decay[3](https://www.epa.gov/radiation/radiation-basics)[5](https://www.radsource.com/wp-content/uploads/2016/06/Gamma_vs_X-ray_Comparison_082415.pdf).
     
-2. **Penetration Ability**: The higher energy associated with X-rays' shorter wavelengths enables them to penetrate materials more easily than visible light, making them suitable for analyzing internal structures[2](https://www2.tulane.edu/~sanelson/eens211/x-ray.htm)[5](https://raybloc.com/art-of-x-ray-protection/).
-    
-3. **Resolution and Detail**: Visible light cannot resolve details at the atomic scale due to its longer wavelength, whereas X-rays can provide precise information about crystal structures by scattering off electron densities within atoms[1](https://www.cif.iastate.edu/services/acide/xrd-tutorial/xraysinchem)[8](https://www.vaia.com/en-us/textbooks/chemistry/chemistry-the-central-science-in-si-units-global-edition-14-edition/chapter-12/problem-119-explain-why-x-rays-can-be-used-to-measure-atomic/).
-    
+2. **Energy and Penetration**:
+    - Gamma rays generally have higher energy and shorter wavelengths than X-rays, making them more penetrating[1](https://www.ionisos.com/en/difference-between-x-rays-and-gamma-rays/)[8](https://www.vaia.com/en-us/textbooks/chemistry/chemistry-matter-and-change-2007-edition/chapter-24/problem-37-what-is-the-difference-between-x-rays-and-gamma-r/).
+        
+    - While both can penetrate deeply, gamma rays require thicker shielding to stop them due to their higher energy[6](https://www.ncbi.nlm.nih.gov/books/NBK304365/).
+        
+3. **Production Methods**:
+    - Gamma rays come from radioactive sources like Cobalt-60.
+        
+    - X-rays are often generated using electrical equipment like X-ray tubes[5](https://www.radsource.com/wp-content/uploads/2016/06/Gamma_vs_X-ray_Comparison_082415.pdf).
+        
+4. **Applications**:
+    - Gamma rays are used in cancer treatment and sterilization due to their high penetration power.
+        
+    - X-rays are commonly used in medical imaging because they can differentiate between various tissues based on absorption rates[1](https://www.ionisos.com/en/difference-between-x-rays-and-gamma-rays/)[2](https://www.cancer.org/cancer/risk-prevention/radiation-exposure/x-rays-gamma-rays/what-are-xrays-and-gamma-rays.html).
 ### Why do we need x-ray instead of visible light to analyze the structure of various materials??
 We need X-rays instead of visible light to analyze the structure of materials for several reasons:
 
