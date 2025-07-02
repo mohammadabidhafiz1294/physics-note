@@ -13,6 +13,7 @@ The **Capacitated Vehicle Routing Problem (CVRP)** is a version of the VRP where
 The **Traveling Salesperson Problem (TSP)** is a famous problem that's a simplified version of the VRP. It involves finding the shortest possible route for a salesperson to visit a set of cities and return to their starting point.
 
 **Metaheuristic Strategy**
+
 A **metaheuristic** is a high-level strategy for solving difficult problems. Metaheuristic algorithms for the TSP are used to find very good, but not necessarily perfect, solutions in a reasonable amount of time. Examples include **simulated annealing**, **genetic algorithms**, and **ant colony optimization**.
 
 **Algorithms Introduced**
