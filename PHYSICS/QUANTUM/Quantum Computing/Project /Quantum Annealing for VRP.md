@@ -37,6 +37,26 @@ What makes the **CVRTW particularly challenging are its specific constraints**:
 - **Depot:** All vehicles start their routes from a central depot and must return to it after completing their deliveries.
 - **Customer Demand:** Each customer has a known demand that must be met.
 
+**Constraints**
+
+Constraints are limitations or restrictions imposed on a system or problem, defining the feasible space or allowed configurations. They can be expressed as equations or inequalities and play a crucial role in defining the behavior of systems and solving problems.
+
+### Quantum Annealing
+
+**Quantum Annealing** is a metaheuristic algorithm used for finding the optimal solution to a problem. It's a method that uses the principles of quantum mechanics to guide a system towards its lowest energy state, which corresponds to the best possible solution.
+
+Think of it like trying to find the lowest point in a vast, hilly landscape in the dark. A classical approach (like simulated annealing) would be like rolling a ball and letting it settle in the nearest valley. It might get stuck in a small, local valley and never find the absolute lowest point.
+
+Quantum annealing, however, leverages a quantum phenomenon called **quantum tunneling**. This is like allowing the ball to "tunnel" through the hills instead of having to climb over them. This ability to pass through energy barriers gives it a better chance of exploring the entire landscape and finding the true, global lowest point (the optimal solution). Specialized computers, like those built by D-Wave Systems, are designed specifically to perform this process.
+
 ### Quantum Annealing for CRP
 
-Quantum annealing (QA) is being explored as a promising approach to solve the Vehicle Routing Problem (VRP), a complex optimization problem with numerous real-world applications. VRPs, which involve finding the most efficient routes for a fleet of vehicles to serve a set of locations, are known to be NP-hard, making them computationally challenging for classical computers, especially as the problem size increases. Quantum annealers, like those offered by D-Wave, leverage quantum mechanical phenomena to potentially find solutions to these problems more efficiently than classical algorithms
+Quantum annealing (QA) is being explored as a promising approach to solve the Vehicle Routing Problem (VRP), a complex optimization problem with numerous real-world applications. VRPs, which involve finding the most efficient routes for a fleet of vehicles to serve a set of locations, are known to be NP-hard, making them computationally challenging for classical computers, especially as the problem size increases. Quantum annealers, like those offered by D-Wave, leverage quantum mechanical phenomena to potentially find solutions to these problems more efficiently than classical algorithms.
+
+**BQM**
+Binary Quadratic Model
+A **BQM** is a way of expressing a problem using only **binary variables** (like 0/1 or -1/1) where the goal is to minimize a **quadratic** function. It's the foundational language for quantum annealers.
+
+**CQM**
+Constrained Quadratic Model
+A **CQM** is a more powerful and user-friendly model. It's an evolution of the BQM that allows you to define constraints directly, making it much easier to represent complex, real-world problems.
