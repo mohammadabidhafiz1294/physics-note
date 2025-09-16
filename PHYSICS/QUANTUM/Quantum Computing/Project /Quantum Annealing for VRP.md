@@ -1,12 +1,12 @@
- **VRP and CVRP**
+  **VRP and CVRP**
  
 The **Vehicle Routing Problem (VRP)** is a classic optimization problem where the goal is to find the best routes for a fleet of vehicles to deliver goods or services to a set of customers. "Best" usually means the shortest, cheapest, or fastest route.
 
 The **Capacitated Vehicle Routing Problem (CVRP)** is a version of the VRP where the vehicles have a limited capacity, like a certain number of packages they can carry or a maximum weight limit. This adds an extra layer of difficulty to the problem.
-
+    
 **QUBO**
 
-**QUBO**, or **Quadratic Unconstrained Binary Optimization**, is a way of framing certain problems so they can be solved by quantum computers. It involves converting the problem into a mathematical equation with binary variables (0 or 1). The quantum computer then finds the solution that gives the lowest possible value for the equation, which corresponds to the best solution to the original problem.
+**QUBO**, or **Quadratic Unconstrained Binary Optimization**, is a way of framing certain problems so they can be solved by quantum computers. It involves co    nverting the problem into a mathematical equation with binary variables (0 or 1). The quantum computer then finds the solution that gives the lowest possible value for the equation, which corresponds to the best solution to the original problem.
 
 **TSP**
 
@@ -60,3 +60,124 @@ A **BQM** is a way of expressing a problem using only **binary variables** (like
 **CQM**
 Constrained Quadratic Model
 A **CQM** is a more powerful and user-friendly model. It's an evolution of the BQM that allows you to define constraints directly, making it much easier to represent complex, real-world problems.
+
+**Quantum Approximate Optimization Algorithm (QAOA)**
+
+
+**Noisy Intermediate Scale Quantum (NISQ)**
+
+**Euclidean distance**
+
+
+**NP-hardness:**
+A problem is NP-hard if it is at least as hard as the hardest problems in the complexity class NP (Nondeterministic Polynomial time). In simpler terms, if you could solve an NP-hard problem efficiently, you could solve all problems in NP efficiently. However, it's generally believed that no polynomial-time algorithm exists for NP-hard problems.
+
+
+---
+### Paper: Graph Coarsening Approach to the Vehicle Routing Problem: An Approximation Strategy 
+
+ 🧩 **Goal of the Paper**:
+
+To solve large **Capacitated Vehicle Routing Problems (CVRP)** **faster** by using a technique called **graph coarsening**, making it easier for both **classical** and **quantum** solvers.
+
+ 🧠 What Is the CVRP?
+
+- A vehicle must deliver goods to multiple **customers** (nodes/vertices).
+- Vehicles have a **limited capacity**.
+- Objective: Minimize total **distance** while satisfying all **constraints** (e.g., every customer is visited, no vehicle exceeds its capacity).
+
+🧱 Key Components
+
+|Term|Meaning|
+|---|---|
+|**Vertex (V)**|A location (customer or depot)|
+|**Edge (E)**|Road/connection between two locations|
+|**Graph (G)**|Set of all vertices and edges|
+|**Coarsening**|Combining nearby vertices into one to reduce graph size|
+|**Inflation**|Reversing coarsening to return to original detail|
+|**ILP**|Integer Linear Programming — a method for solving exact optimization problems|
+|**BQM/QUBO**|Binary Quadratic Models — used in quantum computing|
+
+
+**Working Process: Step-by-Step**
+
+1. **Start with the original graph**
+
+	Each node = a customer. Each edge = road with distance (Euclidean).
+ 2. **Apply Graph Coarsening**
+ 
+	- Sort edges by distance.
+	- Pick a threshold (based on radius coefficient).
+	- **Merge nearby vertices** into one "super-node" if they're close enough.
+	- Update the graph.
+	- Repeat until number of nodes is reduced (according to coarsening rate `P`).
+
+	🔧 _Example:_ If `C` and `D` are close → merge to `C/D`.
+
+3. **Solving CVRP on Coarsened Graph**
+
+	They try **two approaches**:
+
+	A. **ILP (Gurobi Solver)** – Precise Classical
+
+	- Use mathematical model of CVRP.
+	- Finds close-to-optimal solutions.
+	- Slower on large graphs.
+
+	 B. **BQM (Quantum/Hybrid Solvers)** – Approximate
+
+	- Converts problem to a binary form suitable for D-Wave’s **quantum annealing**.
+	- Uses **Leap Hybrid Sampler** (quantum-classical) and **Neal** (simulated annealing).
+
+> Quantum solvers struggle with large graphs → coarsening helps them a lot!
+
+ 4. **Inflation (Reverse Coarsening)**
+	
+	- Reconstruct original solution from coarsened one.
+	- For each merged node (e.g., C/D), decide best order (C→D or D→C) to keep total cost low.
+
+ 5. **Evaluation (Experiments)**
+
+	They use **standard datasets** (Christofides CMT01–CMT12).
+	
+	Results:
+
+	- **Gurobi (ILP)**: Performs best on full (uncoarsened) graphs.
+	- **Quantum (Leap/Neal)**: **Works better on coarsened graphs** → improved quality and speed.
+	- **Best combination**: Use coarsening + BQM + hybrid solver.
+
+📊 Summary of Findings
+
+| Item                     | Result                                                                  |
+| ------------------------ | ----------------------------------------------------------------------- |
+| Coarsening               | Reduces graph size, helpful for large problems                          |
+| ILP + Gurobi             | Precise, best on original graphs                                        |
+| Quantum BQM (Leap, Neal) | Much better on coarsened graphs                                         |
+| Inflation                | Recovers full routes from coarsened solution                            |
+| Overall                  | Graph coarsening enables VRP solving on limited hardware (esp. quantum) |
+
+
+🧩 Real-World Benefit
+
+This method allows:
+- Using **limited classical or quantum hardware** to solve big routing problems.
+- Getting results **faster**, especially with quantum or hybrid solvers.
+- Keeping **solution quality high** using coarsening + inflation.
+
+### Proposal:
+
+**Spatio-Temporal Distance** :
+**Spatio-Temporal Distance** is a custom metric designed to combine both the spatial and temporal aspects of the Vehicle Routing Problem. It helps in making more intelligent decisions during the graph coarsening process.
+
+The proposed spatio-temporal distance, denoted as
+
+$D_(ij)$​, is calculated using the following formula:
+
+$$D_(ij)​=α⋅τ_(ij)​+β⋅ΔT_(ij)$$​
+Here's a breakdown of its components:
+- **$τ_(ij)​$**: This represents the **travel time** between two points, _i_ and _j_. It can be a simple value or a function that depends on the time of day, $τ_(ij)​​(t)$.
+    
+- $ΔT_(ij​)$: This term measures the **temporal separation** or incompatibility  between the time windows of nodes _i_ and _j_. One way to calculate it is by  determining the waiting time, if any, at node $j$ if a vehicle travels from $i$. For example:
+    $$ΔTij​=max(0,e_j​−(t_i​+s_i​+τ_$ij$​))$$         , where $e_j$​ is the earliest start time at $j$, $t_i$ is the arrival time at _i_, and $S_i$​ is the service duration at _i_.
+    
+	- **α and β**: These are **weighting parameters** that allow for balancing the influence of the spatial (travel time) and temporal (time window difference) components in the overall distance calculation.
