@@ -34,3 +34,26 @@ The Dirac equation explains the spin-orbit interaction in quantum mechanics as a
 - It provides accurate energy levels in hydrogen-like atoms and is the basis for relativistic quantum chemistry and atomic physics calculations.
 
 In summary, the Dirac equation inherently combines spin and relativity, and its low-energy approximation reveals the spin-orbit interaction as an intrinsic relativistic correction to the electron’s motion in an atomic potential.[sccs.swarthmore+2](https://www.sccs.swarthmore.edu/users/02/lisal/physics/presentations/so.pdf)
+
+## WHY non-degenerate perturbation theory needed to correction energy & wavefunction??
+Non-degenerate perturbation theory is essential for calculating how small disturbances to a system affect its energy levels and wavefunctions when exact solutions are not possible, enabling systematic corrections to both quantities based on the known unperturbed solutions.
+#### Why Corrections Are Needed
+- **Most physical systems cannot be solved exactly:** Only a few quantum systems, like the harmonic oscillator or hydrogen atom, have exact solutions. For the vast majority of physically relevant systems, the Hamiltonian consists of a solvable part plus a small perturbing term.
+    
+- **Perturbation theory provides approximations:** Non-degenerate perturbation theory systematically builds approximate solutions—energy levels and wavefunctions—by expanding in powers of a small parameter that quantifies the strength of the perturbation.
+#### Corrections to Energy
+- **Energy corrections reflect physical shifts:** The unperturbed energies are changed by the perturbation. First-order corrections typically shift energies by the expectation value of the perturbation in the unperturbed state, while higher order corrections account for more subtle effects, such as virtual transitions to other states.Quantum-Mechanics-Thankappan.pdf+2
+    
+- **Accuracy is improved order by order:** Each order yields more refined and accurate predictions for observable energy levels, oftentimes with good agreement with experiment for sufficiently small perturbations.Quantum-Mechanics-Zettili.-pdf.pdf+1
+    
+#### Corrections to Wavefunction
+- **Wavefunction corrections describe state mixing:** The presence of a perturbation generally mixes the original unperturbed eigenstate with other states, altering observables dependent on the wavefunction's structure (e.g., transition probabilities, expectation values, selection rules).
+    
+- **Expectation values and probabilities depend on wavefunctions:** Since many physical quantities depend on the precise form of the wavefunction, corrections are necessary for accurate theoretical predictions.
+    
+#### Why "Non-degenerate"?
+- **Avoids division by zero:** When unperturbed states are non-degenerate, denominators appearing in higher-order corrections do not vanish, ensuring the perturbative series is well-defined.
+
+- **Degeneracy requires separate treatment:** If there is degeneracy, standard formulas break down; degenerate perturbation theory is required instead.
+
+In summary, non-degenerate perturbation theory is necessary because it systematically provides corrections to both the energy and wavefunction for quantum systems where exact solutions are impossible, ensuring theoretical predictions remain accurate and reliable for small perturbations.
