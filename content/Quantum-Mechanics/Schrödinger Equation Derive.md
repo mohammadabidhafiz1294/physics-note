@@ -67,7 +67,7 @@ The time-independent Schrödinger equation is obtained by assuming time-independ
 $$
 -\frac{\hbar^2}{2m} \frac{d^2\psi(x)}{dx^2} + V(x)\psi(x) = E\psi(x)
 $$
-
+--- 
 ## Time Depenedent Schrodinger Equation Drive
 
 The time-dependent Schrödinger equation (TDSE) is the foundational equation describing the quantum evolution of a system's wavefunction over time. Its form and plausibility are motivated by analogies with classical energy relations, de Broglie's wave-particle duality, and the necessity for a first-order differential equation in time. Here is a step-by-step "derivation" and motivation, as accepted widely in quantum mechanics:
