@@ -1,4 +1,4 @@
-### **spectroscopic Splitting Factor or **Landé g-factor****
+### **Spectroscopic Splitting Factor or **Landé g-factor****
 The **spectroscopic splitting factor**, also known as the **Landé g-factor** (gJg_JgJ), is a dimensionless quantity that characterizes the ratio of the magnetic moment to the angular momentum for an atom, ion, or electron state. It determines the size of the energy splitting (Zeeman effect) when the system is placed in a magnetic field.
 
 **==>** **Definition**
