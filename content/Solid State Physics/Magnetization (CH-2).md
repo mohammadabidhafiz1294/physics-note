@@ -9,7 +9,6 @@ where:
 - L is the orbital angular momentum quantum number,
 - S is the total spin quantum number.
 This formula combines the contributions from both orbital and spin angular momenta to the total magnetic moment.
-
 **==>  **Physical Meaning****
 - The factor *$g_J$* appears in the expression for the energy splitting of atomic levels in an applied magnetic field:$$\Delta E = g_J \mu_B B m_J$$
     where $\mu_B$ is the Bohr magneton, B is the magnetic field, and $m_J$ is the magnetic quantum number for J.
