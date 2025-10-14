@@ -9,10 +9,8 @@ The WKB method provides asymptotic solutions in different regions:
 $$\psi(x) \approx \frac{1}{\sqrt{p(x)}} \left[ A e^{i\int^x p(x')\,dx'/\hbar} + B e^{-i\int^x p(x')\,dx'/\hbar} \right]$$
 **Nonclassical Region** ($E < V(x)$):
 $$\psi(x) \approx \frac{1}{\sqrt{|p(x)|}} \left[ C e^{\int^x |p(x')|\,dx'/\hbar} + D e^{-\int^x |p(x')|\,dx'/\hbar} \right]$$
-where $$p(x) = \sqrt{2m(E - V(x))}$$ is the classical momentum.[1][2][3]
-
-## Problem at Turning Points
-
+where $$p(x) = \sqrt{2m(E - V(x))}$$ is the classical momentum.
+#### Problem at Turning Points
 The WKB approximation fails at classical turning points where $$E = V(x_0)$$ because $$p(x_0) = 0$$, causing the wavefunctions to diverge unphysically. The validity condition $$|\frac{d\lambda}{dx}| \ll 1$$ (where $$\lambda = \hbar/p$$ is the de Broglie wavelength) breaks down since $\lambda \to \infty$ at turning points.
 #### Linear Approximation Near Turning Points
 To solve this problem, we linearize the potential near the turning point $x_0$:
@@ -59,7 +57,7 @@ If $b = 0$ (physically acceptable boundary condition), then:
 - $$C = -ie^{-i\pi/4}D$$
 #### Final Connection Formulas
 
-The complete WKB connection formulas relating solutions across a turning point are:[2][3][1]
+The complete WKB connection formulas relating solutions across a turning point are:
 
 **From nonclassical to classical region:**
 $$\frac{1}{\sqrt{|p(x)|}} \exp\left(-\frac{1}{\hbar}\int_x^{x_0} |p(x')|\,dx'\right) \leftrightarrow \frac{2}{\sqrt{p(x)}} \sin\left(\frac{1}{\hbar}\int_{x_0}^x p(x')\,dx' + \frac{\pi}{4}\right)$$
