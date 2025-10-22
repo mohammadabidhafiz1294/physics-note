@@ -271,7 +271,7 @@ It measures the system’s **available energy to perform work** under constant p
 At **equilibrium**, the system exists in the phase (normal or superconducting) that has the **lower Gibbs free energy**.
 
 #### Temperature Dependence of G
-For both normal ($$G_N$$) and superconducting ($$G_S$$) states, Gibbs free energy depends on temperature through the entropy term $-TS$:
+For both normal ($G_N$) and superconducting ($G_S$) states, Gibbs free energy depends on temperature through the entropy term $-TS$:
 
 - As **temperature increases**, $TS$ increases, reducing $G$.  
 - At **absolute zero (T=0)**, entropy $S = 0$ for both states (Third Law of Thermodynamics), so $G$ equals internal energy.  
@@ -306,9 +306,9 @@ $$S_N - S_S = \frac{d}{dT}\left(\frac{H_c^2}{8\pi}\right)$$
 ##### Behavior Summary
 | Temperature | Gibbs Free Energy Relation | Entropy Relation | Phase |
 |--------------|----------------------------|------------------|--------|
-| **T < Tc** | $$G_S < G_N$$ | $$S_S < S_N$$ | Superconducting (stable) [1] |
-| **T = Tc** | $$G_S = G_N$$ | $$S_S < S_N$$; discontinuity in $$C_p$$ | Transition point [1] |
-| **T > Tc** | $$G_S > G_N$$ | $$S_S$$ not defined (normal only) | Normal conducting [1] |
+| **T < Tc** | $G_S < G_N$ | $S_S < S_N$ | Superconducting (stable) |
+| **T = Tc** | $G_S = G_N$ | $S_S < S_N$; discontinuity in $C_p$ | Transition point |
+| **T > Tc** | $G_S > G_N$ | $S_S$ not defined (normal only) | Normal conducting |
 
 ##### Visual Description of G vs. T Behavior
 In a **G vs. T** plot:
@@ -602,72 +602,54 @@ These describe the fundamental **thermal and magnetic properties** of supercondu
 - The **specific heat anomaly** confirms the **second-order nature** of the transition.
 - The **Hc–T relation** defines the **phase boundary** between normal and superconducting states.
 
-Here are clear explanations of the key superconductivity topics — **London’s Equation**, **Isotope Effect**, **Cooper Pair**, **Ginzburg–Landau (GL) Parameter**, and **Superconducting Energy Gap** — based on fundamental theory and principles from condensed matter physics [1].
+Here are clear explanations of the key superconductivity topics — **London’s Equation**, **Isotope Effect**, **Cooper Pair**, **Ginzburg–Landau (GL) Parameter**, and **Superconducting Energy Gap** — based on fundamental theory and principles from condensed matter physics.
 
-***
-
-### 1. London’s Equation
+### London’s Equation
 
 The **London equations** (introduced by Fritz and Heinz London in 1935) describe the **electromagnetic behavior of superconductors** and explain the **Meissner effect**, or magnetic field expulsion.  
 
 There are two London equations:
 
 1. **First London Equation:**
-   $$
-   \frac{d\mathbf{J}}{dt} = \frac{n_se^2}{m}\mathbf{E}
-   $$
-   - $$ \mathbf{J} $$: supercurrent density  
-   - $$ n_s $$: density of superconducting electrons  
-   - $$ e $$: electron charge  
-   - $$ m $$: electron mass  
-   - $$ \mathbf{E} $$: electric field  
+   $$\frac{d\mathbf{J}}{dt} = \frac{n_se^2}{m}\mathbf{E}$$
+   - $\mathbf{J}$: supercurrent density  
+   - $n_s$: density of superconducting electrons  
+   - $e$: electron charge  
+   - $m$: electron mass  
+   - $\mathbf{E}$: electric field  
 
-   This equation states that superconducting electrons accelerate indefinitely under an applied electric field because no resistance opposes their motion — hence **zero resistivity** [1].
+   This equation states that superconducting electrons accelerate indefinitely under an applied electric field because no resistance opposes their motion — hence **zero resistivity**.
 
 2. **Second London Equation:**
-   $$
-   \nabla \times \mathbf{J} = -\frac{n_se^2}{mc}\mathbf{B}
-   $$
-   - $$ \mathbf{B} $$: magnetic field  
+   $$\nabla \times \mathbf{J} = -\frac{n_se^2}{mc}\mathbf{B}$$
+   - $\mathbf{B}$: magnetic field  
 
    This equation explains the **Meissner effect** — the magnetic field decays exponentially inside the superconductor over a characteristic distance called the **London penetration depth (λ)**:
-   $$
-   B(x) = B_0 e^{-x/\lambda}, \quad \lambda = \sqrt{\frac{mc^2}{4\pi n_se^2}}
-   $$
+   $$B(x) = B_0 e^{-x/\lambda}, \quad \lambda = \sqrt{\frac{mc^2}{4\pi n_se^2}}$$
+Thus, London’s equations give the **foundation for superconducting electrodynamics**.
 
-Thus, London’s equations give the **foundation for superconducting electrodynamics** [1].
-
-***
-
-### 2. Isotope Effect
+### Isotope Effect
 
 The **isotope effect** provided strong experimental evidence that superconductivity is caused by **phonon–electron interactions**.
 
 Discovered in 1950 by Maxwell and Reynolds, this effect shows that the **critical temperature (Tc)** of a superconductor depends on the atomic mass (M) of the isotopic element:
 
-$$
-T_c \propto M^{-\alpha}
-$$
-with $$ \alpha \approx 0.5 $$ for many conventional superconductors.
+$$T_c \propto M^{-\alpha}$$
+with $\alpha \approx 0.5$ for many conventional superconductors.
 
 **Explanation:**
-- A heavier isotope vibrates more slowly → lowers the phonon frequency ($$ \omega_D $$) → weakens electron–phonon coupling → reduces $$ T_c $$.  
-- Thus, superconductivity depends on **lattice vibrations**, confirming the **BCS theory** idea that **phonons mediate Cooper pairing** [1].
+- A heavier isotope vibrates more slowly → lowers the phonon frequency ($\omega_D$) → weakens electron–phonon coupling → reduces $T_c$.  
+- Thus, superconductivity depends on **lattice vibrations**, confirming the **BCS theory** idea that **phonons mediate Cooper pairing**.
 
 **Example:**  
-In mercury (Hg isotopes), $$ T_c $$ changes from 4.15 K to 4.20 K when the atomic mass changes, consistent with $$ T_c \propto M^{-0.5} $$ [1].
+In mercury (Hg isotopes), $T_c$ changes from 4.15 K to 4.20 K when the atomic mass changes, consistent with $T_c \propto M^{-0.5}$.
 
-***
-
-### 3. Cooper Pair
+### Cooper Pair
 
 Proposed by **Leon Cooper (1956)**, the **Cooper pair** is the cornerstone of **BCS theory**.
 
 A **Cooper pair** is a bound state of two electrons (with opposite spins and momenta) that act as a single quantum entity:
-
-$$
-(\mathbf{k}\uparrow, -\mathbf{k}\downarrow)
-$$
+$$(\mathbf{k}\uparrow, -\mathbf{k}\downarrow)$$
 
 **Mechanism:**
 - Despite their mutual repulsion, two electrons can attract **indirectly** via **lattice vibrations (phonons)**.
@@ -677,69 +659,51 @@ $$
 **Key properties:**
 - The pair behaves as a **boson** (integer spin), allowing **Bose–Einstein–like condensation** into a single ground state.
 - Cooper pairs move coherently without scattering, explaining **zero resistance**.
-- The average **pair separation** (coherence length) is hundreds of nanometers — much larger than atomic spacing [1].
+- The average **pair separation** (coherence length) is hundreds of nanometers — much larger than atomic spacing.
 
-***
-
-### 4. Ginzburg–Landau (GL) Parameter (κ)
+### Ginzburg–Landau (GL) Parameter (κ)
 
 The **Ginzburg–Landau theory** provides a **macroscopic description** of superconductivity using an order parameter ψ (related to the density of Cooper pairs).  
 
 The **GL parameter (κ)** is the **ratio** of two characteristic lengths:
 
-$$
-\kappa = \frac{\lambda}{\xi}
-$$
+$$\kappa = \frac{\lambda}{\xi}$$
 where  
-- $$ \lambda $$: London penetration depth (how deep magnetic field penetrates)  
-- $$ \xi $$: coherence length (distance over which ψ changes significantly)
+- $\lambda$: London penetration depth (how deep magnetic field penetrates)  
+- $\xi$: coherence length (distance over which ψ changes significantly)
 
 **Classification:**
-- **Type I Superconductors:** $$ \kappa < \frac{1}{\sqrt{2}} $$
+- **Type I Superconductors:** $\kappa < \frac{1}{\sqrt{2}}$
   - Exhibit perfect **Meissner expulsion**.
   - Sharp, first-order transition between superconducting and normal states.
-- **Type II Superconductors:** $$ \kappa > \frac{1}{\sqrt{2}} $$
+- **Type II Superconductors:** $\kappa > \frac{1}{\sqrt{2}}$
   - Allow magnetic flux to partially penetrate as **vortices (fluxons)**.
-  - Transition occurs gradually between lower ($$H_{c1}$$) and upper ($$H_{c2}$$) critical fields [1].
+  - Transition occurs gradually between lower ($H_{c1}$) and upper ($H_{c2}$) critical fields.
+Thus, the GL parameter determines whether a material behaves as **Type I** or **Type II**.
 
-Thus, the GL parameter determines whether a material behaves as **Type I** or **Type II** [1].
-
-***
-
-### 5. Superconducting Energy Gap (Δ)
-
+### Superconducting Energy Gap (Δ)
 The **superconducting energy gap** represents the **minimum energy required** to break a Cooper pair into two free electrons.
 
 **Key points:**
-- The energy spectrum of electrons near the Fermi level develops a **gap (2Δ)** below $$T_c$$:
-  $$
-  E(k) = \sqrt{(\epsilon_k - \epsilon_F)^2 + \Delta^2}
-  $$
-- The gap vanishes at $$T = T_c$$:  
-  $$
-  \Delta(T) = \Delta(0)\left[1 - \left(\frac{T}{T_c}\right)^2 \right]^{1/2}
-  $$
+- The energy spectrum of electrons near the Fermi level develops a **gap (2Δ)** below $T_c$:
+  $$E(k) = \sqrt{(\epsilon_k - \epsilon_F)^2 + \Delta^2}$$
+- The gap vanishes at $T = T_c$:  
+  $$\Delta(T) = \Delta(0)\left[1 - \left(\frac{T}{T_c}\right)^2 \right]^{1/2}$$
 - Relationship between gap and transition temperature:
-  $$
-  2\Delta(0) = 3.52 k_B T_c
-  $$
-- Experimentally confirmed by tunneling, infrared absorption, and specific heat measurements [1].
+  $$2\Delta(0) = 3.52 k_B T_c$$
+- Experimentally confirmed by tunneling, infrared absorption, and specific heat measurements.
 
 **Physical interpretation:**
 - The gap makes it energetically unfavorable for electrons to scatter, producing **zero resistance**.
-- It defines key thermal and magnetic properties of superconductors, such as their critical field behavior [1].
-
-***
-
-### Summary Table
+- It defines key thermal and magnetic properties of superconductors, such as their critical field behavior.
 
 | Concept | Description | Key Equation | Significance |
 |----------|--------------|---------------|---------------|
-| **London’s Equation** | Describes electromagnetic response of superconductor | $$ \nabla \times J = -\frac{n_se^2}{mc}B $$ | Explains Meissner effect [1] |
-| **Isotope Effect** | Tc ∝ M⁻⁰·⁵ → electron-phonon mechanism | $$ T_c \propto M^{-\alpha} $$ | Confirms phonon involvement [1] |
-| **Cooper Pair** | Two electrons bound via phonon exchange | $$ (\mathbf{k}\uparrow, -\mathbf{k}\downarrow) $$ | Forms basis of BCS theory [1] |
-| **GL Parameter (κ)** | Ratio of λ/ξ; classifies Type I vs II | $$ \kappa = \frac{\lambda}{\xi} $$ | Determines superconducting type [1] |
-| **Energy Gap (Δ)** | Energy to break Cooper pairs | $$ 2\Delta(0) = 3.52k_BT_c $$ | Explains stability & thermal behavior [1] |
+| **London’s Equation** | Describes electromagnetic response of superconductor | $\nabla \times J = -\frac{n_se^2}{mc}B$ | Explains Meissner effect |
+| **Isotope Effect** | Tc ∝ M⁻⁰·⁵ → electron-phonon mechanism | $T_c \propto M^{-\alpha}$ | Confirms phonon involvement |
+| **Cooper Pair** | Two electrons bound via phonon exchange | $(\mathbf{k}\uparrow, -\mathbf{k}\downarrow)$ | Forms basis of BCS theory |
+| **GL Parameter (κ)** | Ratio of λ/ξ; classifies Type I vs II | $\kappa = \frac{\lambda}{\xi}$ | Determines superconducting type |
+| **Energy Gap (Δ)** | Energy to break Cooper pairs | $2\Delta(0) = 3.52k_BT_c$ | Explains stability & thermal behavior |
 
 Together, these five topics form the **core theoretical and experimental framework** of superconductivity — linking electromagnetic, thermodynamic, and quantum mechanical properties into a unified description of the phenomenon.
 
