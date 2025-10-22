@@ -50,9 +50,7 @@ Studying nanoscale systems is crucial for several reasons:
 - **Applications**: It drives innovation in fields like quantum computing, nanoelectronics, targeted drug delivery, catalysis, and energy generation/storage.
 #### Quantization of Conductance
 Quantization of conductance means that, in certain nanoscale systems (such as quantum wires and point contacts), the electrical conductance increases in discrete steps rather than continuously. This phenomenon arises when electron transport is limited to one or a few quantum channels, and each channel contributes a fixed amount to the conductance:
-$$
-G = n \cdot \frac{2e^2}{h}
-$$
+$$G=n \cdot \frac{2e^2}{h}$$
 
 where $n$ is an integer corresponding to the number of quantum channels, $e$ is the elementary charge, and $h$ is Planck's constant. These steps (or "quantized" values) are clear evidence that electron motion is governed by quantum rules and wave-like behavior, not classical physics. Quantized conductance is observable under conditions where the dimensions of the conductor are comparable to the electron's wavelength and at low temperatures.
 
