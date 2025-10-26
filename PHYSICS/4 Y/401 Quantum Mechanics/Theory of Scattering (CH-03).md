@@ -77,13 +77,13 @@ If potentials are strong (e.g., hard spheres or deep wells) or involve significa
 The **Born approximation** is a perturbative method in quantum mechanics used for solving scattering problems, particularly when the potential causing the scattering is weak. It provides an approximate expression for the scattering amplitude by assuming that the incident wave is only slightly disturbed by the potential.
 
 ##### First Born Approximation
-The **first Born approximation** considers only the first term of the Born series derived from the integral form of the Schrödinger equation. For a particle of mass $$ m $$ scattered by a potential $V(\mathbf{r})$, the scattering amplitude is approximated as:
+The **first Born approximation** considers only the first term of the Born series derived from the integral form of the Schrödinger equation. For a particle of mass $m$ scattered by a potential $V(\mathbf{r})$, the scattering amplitude is approximated as:
 $$
 f^{(1)}(\mathbf{k'}, \mathbf{k}) = -\frac{m}{2\pi \hbar^2} \int e^{-i(\mathbf{k'} - \mathbf{k})\cdot \mathbf{r}} V(\mathbf{r})\, d^3r
 $$
 
 Here $\mathbf{k}$ and $\mathbf{k'}$ are the incident and scattered wave vectors, and $\mathbf{q} = \mathbf{k'} - \mathbf{k}$ is the momentum transfer vector.  
-Thus, $$ f^{(1)} $$ is proportional to the **Fourier transform of the potential**.
+Thus, $f^{(1)}$ is proportional to the **Fourier transform of the potential**.
 
 For a **spherically symmetric potential** $V(r)$, the amplitude simplifies to:
 $$f^{(1)}(\theta) = -\frac{2m}{\hbar^2 q} \int_0^\infty r V(r)\sin(qr)\,dr,$$
@@ -96,7 +96,7 @@ The **second Born approximation** corresponds to the next-order term in the Born
 
 $$\psi = \psi_0 + G_0V\psi_0 + G_0VG_0V\psi_0 + \dots$$
 
-The second Born correction comes from the term $G_0VG_0V\psi_0$, yielding an additional contribution to the scattering amplitude:
+The second Born correction comes from the term $G_{0}V\psi_0$, yielding an additional contribution to the scattering amplitude:
 $$f^{(2)}(\mathbf{k'}, \mathbf{k}) = -\frac{m}{2\pi \hbar^2} \int e^{-i\mathbf{k'}\cdot \mathbf{r}}\,V(\mathbf{r})\, \psi^{(1)}(\mathbf{r})\, d^3r$$
 
 where $\psi^{(1)}(\mathbf{r})$ is the first-order corrected wave function.  
