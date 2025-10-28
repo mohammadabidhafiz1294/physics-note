@@ -193,7 +193,7 @@ Because $f(\theta,\phi)$ depends on $\theta$ and $\phi$, the **scattering probab
 |-----------|---------|-------------|------------------|
 | Scattering amplitude | $f(\theta, \phi)$ | $\psi = e^{ikz} + f\frac{e^{ikr}}{r}$ | Measures how the incident wave is modified by the potential |
 | Differential cross section | $\frac{d\sigma}{d\Omega}$ | $f(\theta,\phi)^2$ | Probability per unit solid angle of scattering into direction $\theta, \phi$ |
-| Total cross section | $\sigma_{\text{total}}$$ | $$\int f^2 d\Omega$$ | Total effective scattering area |
+| Total cross section | $\sigma_{\text{total}}$ | $\int f^2 d\Omega$ | Total effective scattering area |
 | Post-scattering wave function | $\psi(\mathbf{r})$ | $e^{ikz} + f\frac{e^{ikr}}{r}$ | Superposition of incident and scattered waves |
 
 ### partial wave ?? when is the partial wave analysics useful?? partial wave analysis means??
