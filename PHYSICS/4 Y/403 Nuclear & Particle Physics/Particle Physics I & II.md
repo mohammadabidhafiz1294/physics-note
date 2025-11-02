@@ -1,4 +1,4 @@
-Particle physics is the study of the fundamental building blocks of matter and the forces governing their interactions[1][2][3]. This field seeks to understand the origin, structure, and behavior of the smallest constituents in the universe, which are described within an overarching framework known as the Standard Model.
+Particle physics is the study of the fundamental building blocks of matter and the forces governing their interactions. This field seeks to understand the origin, structure, and behavior of the smallest constituents in the universe, which are described within an overarching framework known as the Standard Model.
 
 #### What Is Particle Physics?
 
@@ -40,7 +40,7 @@ Quarks and leptons exist in three "families" or generations, each differing main
 
 ##### How Forces Work
 The interactions are described by quantum field theories:
-- **Electromagnetism (QED)**: Mediated by photons, acts on electric charge[1].
+- **Electromagnetism (QED)**: Mediated by photons, acts on electric charge.
 - **Weak force**: Mediated by W and Z bosons, responsible for processes like radioactive decay and neutrino interactions.
 - **Strong force (QCD)**: Mediated by eight gluons, binds quarks in hadrons (protons, neutrons).
 
@@ -57,7 +57,7 @@ The Standard Model Lagrangian is constructed to be invariant under local SU(3)$_
 - Key discoveries supporting the Standard Model include the observation of neutral currents (Gargamelle bubble chamber, CERN, 1973) and the $W/Z$ bosons (UA1 and UA2 experiments, CERN, 1983).
 - Measurements of mixing angles, coupling strengths, and particle masses also show remarkable agreement with predictions, with parameters such as the weak mixing angle ($\sin^2 \theta_W \approx 0.23$) determined from several experiments.
 
-### Limitations and Open Questions
+##### Limitations and Open Questions
 Despite its success, the Standard Model has unresolved problems:
 - The unexplained pattern of particle masses and generations.
 - No incorporation of gravity.
