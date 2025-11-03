@@ -65,3 +65,91 @@ Despite its success, the Standard Model has unresolved problems:
 - The origin of neutrino masses and CP violation is not fully explained, requiring physics beyond the Standard Model.
 
 Thus, while the Standard Model offers a robust foundation for particle physics, it is recognized as an incomplete theory, with major questions left for future exploration.
+
+### Strong coupling; Weak coupling; Electromagnetic coupling
+The strong, weak, and electromagnetic couplings are fundamental parameters that characterize the strength of their respective interactions and play a crucial role in the Standard Model. Each coupling 'constant' varies with energy, a phenomenon known as "running," and their values and behaviors underpin a wide range of particle phenomena.
+
+- **Electromagnetic Coupling** ($\alpha$):
+  - The electromagnetic interaction is measured by the fine-structure constant: $\alpha = \frac{e^2}{4\pi \epsilon_0 \hbar c} \approx \frac{1}{137} \approx 0.0073$ at low energies.
+  - It quantifies the interaction strength between charged particles and photons.
+  - Slightly increases with energy due to vacuum polarization effects[1].
+- **Weak Coupling** ($G_F, g_W$):
+  - The weak interaction is characterized by the Fermi constant ($G_F=1.166 \times 10^{-5}$ GeV${}^{-2}$) and a dimensionless coupling ($\alpha_{\textrm{weak}} \approx \frac{1}{30}$).
+  - Responsible for processes like beta decay, with interaction strengths much smaller than electromagnetic at low energies, due to the heavy masses of W and Z bosons[2].
+- **Strong Coupling** ($\alpha_s$): 
+  - The strength of the strong interaction is quantified by the strong coupling constant ($\alpha_s$), which is close to 1 at low energies (1 GeV), making the strong force the most powerful at subatomic scales.
+  - At higher energies, $\alpha_s$ decreases (asymptotic freedom)—quarks behave as though they are nearly free.
+
+| Force              | Coupling Constant   | Relative Strength (@ 1 GeV)   | Carrier Particle   |
+|--------------------|--------------------|-------------------------------|--------------------|
+| Strong             | $\alpha_s \sim 1$        | 1 (strongest)                | Gluon              |
+| Electromagnetic    | $\alpha \sim \frac{1}{137}$| $10^{-2}$ (about 1/100 strong force) | Photon             |
+| Weak               | $\alpha_{weak} \sim 10^{-6}$ | $10^{-6}$ (1,000,000 times weaker than strong) | W, Z bosons        |[1][2]
+
+#### Energy Dependence: Running of Couplings
+- **Strong Coupling ($\alpha_s$)** decreases rapidly with increasing energy due to antiscreening from gluons, leading to asymptotic freedom at high energies.
+- **Electromagnetic Coupling ($\alpha$)** increases slowly with energy, affected by vacuum polarization (screening by virtual pairs).
+- **Weak Coupling ($\alpha_{weak}$)** also decreases, but less rapidly than $\alpha_s$; at high energies (>100 GeV), electromagnetic and weak couplings converge, hinting at electroweak unification.
+
+##### Physical Implications
+- The strong interaction binds quarks into protons, neutrons, and other hadrons.
+- The electromagnetic interaction holds atoms and molecules together and governs phenomena like light emission and absorption.
+- The weak interaction enables flavor-changing processes (like quark transitions and beta decay) and is essential for nuclear fusion and certain types of particle decay.
+- At low energies, strong decays dominate; electromagnetic decays outlast weak ones; weak decays are the rarest and longest-lived.
+
+ **Summary Table:**
+ 
+| Force      | Symbol         | Value at Low Energy | Physical Consequence   |
+|------------|---------------|---------------------|----------------------------------------|
+| Strong     | $\alpha_s$  | $\sim 1$          | Quark confinement, hadron formation    |
+| EM         | $\alpha$    | $\sim 1/137$      | Atomic structure, photon interactions  |
+| Weak       | $\alpha_{weak}$ | $\sim 10^{-6}$   | Beta decay, neutrino processes         |
+
+The remarkable difference in coupling strengths dictates which interaction dominates particle reactions and decays, and their energy dependence informs ongoing research into grand unification.
+
+### Elementary Particles?? Classify the Elementary particles.
+Elementary particles are the most fundamental building blocks of matter and energy, with no known internal structure or subcomponents[1][2][3]. According to the Standard Model of particle physics, these elementary particles are organized into three primary categories: fermions (matter particles), gauge bosons (force carriers), and the scalar Higgs boson.
+
+#### Major Classes of Elementary Particles
+
+##### 1. Fermions (Matter Particles)
+
+- **Fermions** have half-integer spin ($1/2$), and follow Fermi-Dirac statistics. These are divided into:
+  - **Quarks** (six flavors): up ($u$), down ($d$), charm ($c$), strange ($s$), top ($t$), bottom ($b$)
+      - Quarks combine to form hadrons such as protons and neutrons.
+      - Quarks participate in strong, weak, and electromagnetic interactions but are never found isolated (“confinement”).
+  - **Leptons** (six flavors): electron ($e$), muon ($\mu$), tau ($\tau$), and their corresponding neutrinos ($\nu_e$, $\nu_\mu$, $\nu_\tau$)
+      - Leptons include charged particles (like the electron) and neutrinos (which are neutral).
+      - Leptons participate in weak and electromagnetic (if charged) interactions; neutrinos interact only weakly.
+
+##### 2. Bosons (Force Carriers)
+
+- **Bosons** have integer spin (0, 1) and mediate the fundamental forces of nature:
+  - **Photon ($\gamma$)**: Carrier of the electromagnetic force (spin-1, massless)
+  - **Gluon ($g$)**: Carrier of the strong force (spin-1, massless, comes in 8 types due to color charge)
+  - **$W^+$, $W^-$, $Z^0$ Bosons**: Carriers of the weak force (spin-1, massive)
+  - **Higgs Boson ($H^0$)**: Scalar boson (spin-0); responsible for giving mass to particles via the Higgs mechanism.
+
+##### 3. Hypothetical/Other Bosons
+- **Graviton**: Hypothetical spin-2 boson that would mediate gravity, not confirmed or part of the Standard Model.
+
+##### Classification Table
+| Category      | Particle Types           | Generations | Spin  | Interactions                     |
+|---------------|-------------------------|-------------|-------|----------------------------------|
+| Quarks        | up, down, charm, strange, top, bottom | 3           | $1/2$ | Strong, weak, electromagnetic    |
+| Leptons       | e, μ, τ, νₑ, νμ, ντ         | 3           | $1/2$ | Weak, electromagnetic (charged)  |
+| Gauge Bosons  | γ, g, W+, W−, Z0            | -           | 1     | Mediate forces                   |
+| Scalar Boson  | Higgs (H)                   | -           | 0     | Gives mass via Higgs mechanism   |
+
+##### Additional Features
+- **Antiparticles**: Every particle has a corresponding antiparticle with the same mass but opposite charge and quantum numbers.
+- **Color Charge**: Only quarks and gluons carry color charge (relevant to the strong interaction).
+- **Generations**: There are three generations of increasing mass for both quarks and leptons—only the first generation particles make up ordinary matter.
+
+#### Composite Particles
+- **Hadrons**: Composite particles made of quarks. Two main types:
+  - **Baryons** (e.g., protons, neutrons): three quarks, half-integer spin (fermions)
+  - **Mesons** (e.g., pions): quark-antiquark pairs, integer spin (bosons)
+- Hadrons are not elementary but are vital for understanding the structure of matter.
+
+In summary, all observed matter and interactions derive from these elementary particles and the forces mediated by their exchange, as described by the Standard Model.
