@@ -685,3 +685,88 @@ The **CPT theorem** states that any Hamiltonian invariant under proper Lorentz t
 These discrete symmetries form the foundation for classifying and understanding particle interactions, and their violations reveal deep connections between matter and antimatter in the universe.
 
 ### Discuss parity violation of Beta-decay with experimental evidence.
+Based on the comprehensive information in my files, I can now provide a detailed explanation of parity violation in beta decay with experimental evidence.
+
+##### Theoretical Prediction
+
+In 1956, the Chinese theoretical physicists **Tsung-Dao Lee and Chen-Ning Yang** proposed a revolutionary idea: unlike strong and electromagnetic interactions, there was no experimental proof that parity was conserved in weak interactions. They suggested that the weak force might violate parity and proposed a crucial test: observing whether the direction of emitted particles in beta decay depends on a pseudoscalar quantity (like helicity).
+
+#### The Wu Experiment (1957): Landmark Experimental Evidence
+**Experimental Setup:**
+Chien-Shiung Wu and her colleagues at the National Bureau of Standards conducted the famous experiment in 1957 using **Cobalt-60 (⁶⁰Co)** nuclei:
+
+- **Cooling**: The Co-60 nuclei were cooled to approximately **0.01 K (10 milli-kelvin)** using adiabatic demagnetization and liquid helium.
+- **Polarization**: A strong external magnetic field was applied to align the nuclear spins, so they pointed uniformly in one direction (e.g., the z-axis).
+- **Detection**: Electron detectors measured the direction of emitted electrons relative to the nuclear spin direction.
+
+**The Beta Decay Process:**
+The decay scheme was:
+$$^{60}\text{Co} \rightarrow ^{60}\text{Ni}^* + e^- + \bar{\nu}_e$$
+
+The daughter nucleus (Ni-60) remained polarized, and subsequent gamma-ray emissions allowed the degree of polarization to be monitored through angular asymmetry measurements.
+
+#### Key Experimental Results
+**Fundamental Discovery:**
+If parity were conserved, electrons should be emitted equally in all directions relative to the nuclear spin. However, Wu's experiment revealed an **asymmetric distribution**:
+- **More electrons were emitted antiparallel to the nuclear spin** than parallel to it.
+- This observation was **decisive evidence that parity is violated** in weak interactions.
+
+**Quantitative Findings:**
+The angular distribution of electrons followed:
+$$W_e(\theta) = W_0(1 + a\beta_e \cos\theta)$$
+
+where $\beta_e$ is the electron velocity divided by the speed of light, and $\theta$ is the angle between the electron direction and the nuclear spin.
+
+The measured asymmetry parameter was: $a \approx -1$
+This indicates **maximal parity violation**—the opposite of what parity conservation would predict.
+
+##### Helicity: A Key Concept
+**Helicity Definition:**  
+The helicity of a particle is the projection of its spin along its direction of motion:
+- **Left-handed (negative helicity)**: spin and momentum point in opposite directions
+- **Right-handed (positive helicity)**: spin and momentum point in the same direction.
+
+**Crucial Finding:**
+Wu's measurements showed that:
+- **Electrons emitted in beta decay are predominantly left-handed** (negative helicity $\approx -v/c$)
+- **Antineutrinos are predominantly right-handed** (positive helicity)
+
+This observation contradicts mirror symmetry: if parity were conserved, left-handed electrons and right-handed antineutrinos should occur with equal probability as right-handed electrons and left-handed antineutrinos. Instead, nature shows a **chiral preference**.
+
+##### Mirror Image Argument
+To understand the significance, consider the mirror image of the decay process:
+**Original Process (Observed):**
+- Nuclear spin points upward (⊙)
+- Electrons emitted preferentially **downward** (opposite to spin)
+- Electrons are left-handed
+
+**Mirror Image (If Parity Conserved):**
+- Nuclear spin points downward (⊗)
+- Electrons should be emitted preferentially **upward** (opposite to mirrored spin)
+- But the mirror image shows electrons still emitted downward!
+
+This stark violation of mirror symmetry proved that parity is not a symmetry of weak interactions.
+
+##### V−A Structure of Weak Interaction
+Wu's experiment provided crucial evidence for the **V−A (Vector minus Axial-vector) structure** of the weak interaction:
+- The asymmetry parameter $a = -1$ is consistent with a pure V−A interaction.
+- This means the weak interaction is described by vector currents minus axial-vector currents.
+
+##### Impact and Recognition
+**Profound Implications:**
+- The overthrow of parity violated a deeply held assumption in physics.
+- It revealed that the weak force treats particles and antiparticles asymmetrically.
+- Lee and Yang received the **Nobel Prize in Physics in 1957** for their theoretical prediction, though Chien-Shiung Wu's crucial experimental contribution was notably overlooked.
+
+**Quote from Richard Feynman:**
+> "The magnet has grown hairs! The south pole of a magnet is of such a kind that the electrons in a beta-disintegration tend to go away from it—that distinguishes, in a physical way, the north pole from the south pole."
+
+This colorful expression captures the profound violation of mirror symmetry revealed by the experiment.
+
+##### Subsequent Developments
+Following the Wu experiment:
+- **Neutrino helicity measurement** (Goldhaber et al., 1958) confirmed that **all neutrinos are left-handed** and **all antineutrinos are right-handed**.
+- This established that weak interactions couple only to **left-handed fermions and right-handed antifermions**.
+- The discovery paved the way for the **electroweak unification** and the modern Standard Model.
+
+The Wu experiment stands as a milestone in particle physics, providing the first direct evidence that weak interactions violate parity symmetry. The experimental observation of asymmetric electron emission from polarized $Co-60$ beta decay definitively showed that nature distinguishes between left and right at the fundamental level—a discovery that reshaped our understanding of the weak force and matter-antimatter interactions.
