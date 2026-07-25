@@ -1,7 +1,7 @@
 
 ## B.Sc. (Hons) Part-IV Examination - 2024
 
-### 1. (A) Define pUlse tRain. What aRe mArk and sPace in pUlse?
+### 1. (a) Define pulse train. What are mark and space in pulse?
 
 #### English Answer:
 
@@ -25,7 +25,7 @@
     - **স্পেস (Space):** একটি পালস সংকেত যে সময়কাল ($T_s$) ধরে তার **নিম্ন বিভব স্তর** (LOW voltage level / লজিক '০') বজায় রাখে, তাকে _স্পেস_ বলে।
         
 
-### 1. (B) Discuss the vArious tYpes of wAveforms, iLlustrating eAch with the nEcessary dIagrams.
+### 1. (b) Discuss the various types of waveforms, illustrating each with the necessary diagrams.
 
 #### English Answer:
 
@@ -71,7 +71,7 @@ In pulse and digital electronics, electrical signals are broadly categorized int
 
 ৫. **করাত-দাঁতী তরঙ্গ (Sawtooth Waveform):** এতে রৈখিকভাবে ধীরে ধীরে বিভব বৃদ্ধি পায় এবং পরবর্তীতে হঠাৎ করে দ্রুত হ্রাস পায়। এটি প্রধানত সুইপ সার্কিট বা টাইম-বেস জেনারেটরে ব্যবহৃত হয়।
 
-### 1. (C) What is nOn-linear wAveshaping? Explain the wOrking pRinciple of a nEgative bIased pOsitive cLamping cIrcuit.
+### 1. (c) What is non-linear waveshaping? Explain the working principle of a negative biased positive clamping circuit.
 
 #### English Answer:
 
@@ -141,7 +141,7 @@ In pulse and digital electronics, electrical signals are broadly categorized int
         $$v_{o,\min} = -V_B - V_D$$
         
 
-### 1. (D) Numerical Problem
+### 1. (d) Numerical Problem
 
 **Given:**
 
@@ -177,7 +177,7 @@ $$v_{o,\max} = +V_m + V_C = 12\text{ V} + 7.3\text{ V} = 19.3\text{ V}$$
 
 ## B.Sc. (Hons) Part-IV Examination - 2023
 
-### 1. (A) Draw a nOn-ideal pUlse wAveform and dEscribe iTs kEy pUlse pArameters.
+### 1. (a) Draw a non-ideal pulse waveform and describe its key pulse parameters.
 
 #### English Answer:
 
@@ -222,7 +222,7 @@ A practical (non-ideal) rectangular pulse exhibits continuous transitions and pa
 
 ৫. **ওভারশুট ও ব্যাকসুইং:** পালস শুরুর মুহূর্তে কাঙ্ক্ষিত সীমার অতিরিক্ত বৃদ্ধিকে ওভারশুট এবং পালস শেষে বেসলাইনের নিচে সাময়িক পতনকে ব্যাকসুইং বলে।
 
-### 1. (B) Explain the wOrking pRinciple of RC lOw-pass cIrcuit for a sQuare wAve iNput. How cAn the lOw-pass RC cIrcuit bE uSed as an iNtegrator?
+### 1. (b) Explain the working principle of RC low-pass circuit for a square wave input. How can the low-pass RC circuit be used as an integrator?
 
 #### English Answer:
 
@@ -278,7 +278,7 @@ A practical (non-ideal) rectangular pulse exhibits continuous transitions and pa
     যেহেতু $RC$ একটি ধ্রুবক, তাই $v_o(t) \propto \int v_{in}(t) \, dt$। অর্থাৎ আউটপুট বিভব ইনপুট বিভবের সমাকলনের (integration) সমানুপাতিক।
     
 
-### 1. (C) Numerical Problem
+### 1. (c) Numerical Problem
 
 **Given:**
 
@@ -307,7 +307,7 @@ A practical (non-ideal) rectangular pulse exhibits continuous transitions and pa
 
 ## B.Sc. (Hons) Part-IV Examination - 2022
 
-### 1. (A) What is cLamper cIrcuit? Describe the wOrking pRinciple of a pOsitive cLamper cIrcuit for $V_L$ with nEcessary dIagrams.
+### 1. (a) What is clamper circuit? Describe the working principle of a positive clamper circuit for $V_L$ with necessary diagrams.
 
 #### English Answer:
 
@@ -353,7 +353,7 @@ A practical (non-ideal) rectangular pulse exhibits continuous transitions and pa
     ৩. **মোট আউটপুট:** $v_o = v_i + V_C = V_m + V_m = 2V_m$। অর্থাৎ তরঙ্গটি পজিটিভ অক্ষের দিকে শিফট হয়।
     
 
-### 1. (B) Explain the wOrking pRinciple of an RC hIgh-pass cIrcuit for a sQuare wAve iNput. How cAn the hIgh-pass RC cIrcuit bE uSed as a dIfferentiator?
+### 1. (b) Explain the working principle of an RC high-pass circuit for a square wave input. How can the high-pass RC circuit be used as a differentiator?
 
 #### English Answer:
 
@@ -410,7 +410,7 @@ A practical (non-ideal) rectangular pulse exhibits continuous transitions and pa
     আউটপুট ভোল্টেজ ইনপুট সংকেতের সময়-ব্যবকলনের (differentiation) সমানুপাতিক।
     
 
-### 1. (C) Numerical / Design Problem
+### 1. (c) Numerical / Design Problem
 
 **Given:**
 
@@ -456,7 +456,7 @@ $R = \frac{5\text{ ms}}{1\ \mu\text{F}} = 5\text{ k}\Omega$।
 
 ## B.Sc. (Hons) Part-IV Examination - 2021
 
-### 1. (A) Define pUlse pArameters with dIagram.
+### 1. (a) Define pulse parameters with diagram.
 
 #### English Answer:
 
@@ -489,7 +489,7 @@ _(Refer to diagram in 2023 1(a))_
 
 ৫. **ডিউটি সাইকেল ($D$):** পর্যায়কালের তুলনায় পালস স্থায়িত্বের অনুপাত: $D = \frac{t_p}{T} \times 100\%$।
 
-### 1. (B) Mathematical pRoof that $v_o(t) \propto \int v_{in}(t) \, dt$ when $RC \gg T$
+### 1. (b) Mathematical proof that $v_o(t) \propto \int v_{in}(t) \, dt$ when $RC \gg T$
 
 #### English Answer:
 
@@ -529,7 +529,7 @@ $$v_o(t) = \frac{1}{RC} \int v_{in}(t) \, dt$$
 
 অর্থাৎ, আউটপুট ভোল্টেজ ইনপুট সংকেতের ইন্টিগ্রালের সমানুপাতিক।
 
-### 1. (C) Numerical Problem
+### 1. (c) Numerical Problem
 
 **Given:**
 
@@ -560,7 +560,7 @@ $$v_o(t) = \frac{1}{RC} \int v_{in}(t) \, dt$$
 
 ## B.Sc. (Hons) Part-IV Examination - 2020
 
-### 1. (A) Compare lInear and nOn-linear wAveshapings.
+### 1. (a) Compare linear and non-linear waveshapings.
 
 #### English Answer:
 
@@ -580,7 +580,7 @@ $$v_o(t) = \frac{1}{RC} \int v_{in}(t) \, dt$$
 |**সুপারপজিশন**|সুপারপজিশন নীতি মেনে চলে।|সুপারপজিশন নীতি মেনে চলে না।|
 |**উদাহরণ**|ইন্টিগ্রেটর, ডিফারেনশিয়েটর সার্কিট।|ক্লিপার, ক্ল্যাম্পার সার্কিট।|
 
-### 1. (B) (I) Explain RC hIgh-pass for rEctangular iNput, (Ii) How it aCts as a dIfferentiator?
+### 1. (b) (i) Explain RC high-pass for rectangular input, (ii) How it acts as a differentiator?
 
 #### English Answer:
 
@@ -592,7 +592,7 @@ For a rectangular input wave, when the pulse steps from $0$ to $V$, the capacito
 
 ইনপুট বিভব হঠাৎ বৃদ্ধি পেলে ক্যাপাসিটর শুরুতে শর্ট সার্কিট হিসেবে কাজ করায় আউটপুট একলাফে পিকের সমপরিমাণে উন্নীত হয় এবং ক্যাপাসিটর চার্জ হওয়ার সাথে সাথে এক্সপোনেনশিয়ালি কমে শূন্যের দিকে যায়।
 
-### 1. (C) Discuss zEro-level pOsitive pEak cLamping.
+### 1. (c) Discuss zero-level positive peak clamping.
 
 #### English Answer:
 
@@ -617,15 +617,15 @@ When input $v_i$ goes positive, the diode conducts, charging capacitor $C$ to pe
 
 ## B.Sc. (Hons) Part-IV Examination - 2019
 
-### 1. (A) Define pUlse pArameters: (I) Rise tIme, (Ii) Sag, (Iii) Backswing, (Iv) Duration.
+### 1. (a) Define pulse parameters: (i) Rise time, (ii) Sag, (iii) Backswing, (iv) Duration.
 
 _(Refer to detailed answers in 2023 1(a) and 2021 1(a))_
 
-### 1. (B) RC lOw-pass iNtegrating cIrcuit and mAthematical pRoof.
+### 1. (b) RC low-pass integrating circuit and mathematical proof.
 
 _(Refer to detailed derivation in 2021 1(b))_
 
-### 1. (C) Show how pOsitive pEaks cAn bE cLipped uSing a sHunt-diode cLipper cIrcuit.
+### 1. (c) Show how positive peaks can be clipped using a shunt-diode clipper circuit.
 
 #### English Answer:
 
