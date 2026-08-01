@@ -1,4 +1,3 @@
-
 ## B.Sc. (Hons) Part-IV Examination - 2024
 
 ### 1. (a) Define pulse train. What are mark and space in pulse?
