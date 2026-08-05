@@ -2,7 +2,10 @@
 
 #### **Question 6**
 
-**Full Question:** (a) Suppose the expectation value of the pseudoscalar quantity $\vec{P}$ is found to be nonzero in a physical process: $\langle\vec{P}\rangle \neq 0$. What would this imply about parity conservation? What would this imply about time-reversal invariance? (b) Define helicity and chirality and discuss their behavior under parity operation. (c) Discuss parity violation in beta decay, relating your answers from the previous questions. (d) Discuss the asymmetry in the angular distribution of electrons in beta decay for both low and high electron energies.
+**Full Question:** (a) Suppose the expectation value of the pseudoscalar quantity $\vec{P}$ is found to be nonzero in a physical process: $\langle\vec{P}\rangle \neq 0$. What would this imply about parity conservation? What would this imply about time-reversal invariance? 
+(b) Define helicity and chirality and discuss their behavior under parity operation. 
+(c) Discuss parity violation in beta decay, relating your answers from the previous questions. 
+(d) Discuss the asymmetry in the angular distribution of electrons in beta decay for both low and high electron energies.
 
 **Detailed Answer (English):**
 
