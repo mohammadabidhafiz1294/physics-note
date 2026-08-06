@@ -25,7 +25,10 @@
 
 #### **Question 7**
 
-**Full Question:** (a) Show that the CP eigenvalues of the states $|K_1^0\rangle$ and $|K_2^0\rangle$ are +1 and -1, respectively. (b) Discuss strangeness oscillations in the time evolution of kaon states and derive the expressions for the probabilities $P(K^0)$ and $P(\bar{K}^0)$. (c) Show that the existence of the states $|K_1^0\rangle$ and $|K_2^0\rangle$ give rise to the regeneration phenomenon. (d) Discuss the experiment performed by Christenson et al. that demonstrated CP violation.
+**Full Question:** (a) Show that the CP eigenvalues of the states $|K_1^0\rangle$ and $|K_2^0\rangle$ are +1 and -1, respectively. 
+(b) Discuss strangeness oscillations in the time evolution of kaon states and derive the expressions for the probabilities $P(K^0)$ and $P(\bar{K}^0)$. 
+(c) Show that the existence of the states $|K_1^0\rangle$ and $|K_2^0\rangle$ give rise to the regeneration phenomenon. 
+(d) Discuss the experiment performed by Christenson et al. that demonstrated CP violation.
 
 **Detailed Answer (English):**
 
@@ -47,7 +50,10 @@
 
 #### **Question 6**
 
-**Full Question:** (a) Discuss the concepts of parity and charge conjugation symmetries. (b) Discuss the violation of parity in beta decay. (c) The $J/\psi$ meson ($J^{PC}=1^{--}$) is an eigenstate of parity and C-parity. It commonly decays into two photons: $J/\psi \to \gamma + \gamma$. (i) Use parity conservation to determine whether this decay is allowed. (ii) Use C-parity conservation to further analyze whether the decay can occur.
+**Full Question:** 
+(a) Discuss the concepts of parity and charge conjugation symmetries. 
+(b) Discuss the violation of parity in beta decay. 
+(c) The $J/\psi$ meson ($J^{PC}=1^{--}$) is an eigenstate of parity and C-parity. It commonly decays into two photons: $J/\psi \to \gamma + \gamma$. (i) Use parity conservation to determine whether this decay is allowed. (ii) Use C-parity conservation to further analyze whether the decay can occur.
 
 **Detailed Answer (English):**
 
