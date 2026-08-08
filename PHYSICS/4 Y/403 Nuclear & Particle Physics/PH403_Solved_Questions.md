@@ -112,7 +112,7 @@ $u(r)$ rises as $\sin(Kr)$ from 0 to a peak near $r=b$, then decays as $Ce^{-kr}
 $$P_{in}=\frac{\int_0^b A^2\sin^2(Kr)\,dr}{\int_0^b A^2\sin^2(Kr)dr+\int_b^\infty C^2e^{-2kr}dr}$$
 Numerically, with realistic $b\approx2$ fm and $k\approx0.23\ \text{fm}^{-1}$, $P_{in}\approx 0.4$–0.5, i.e., **the neutron and proton spend roughly half their time outside the classically-allowed well region** — evidence the deuteron is a very loosely bound, spatially extended system.
 
-**(e) Why only one bound state**
+**==(e) Why only one bound state==**
 
 The well is shallow and narrow enough that it supports only a single s-wave bound level (the depth $V_0\approx35$ MeV is barely sufficient for one node-free state, $Kb$ just above $\pi/2$); any excited state would require $Kb\gtrsim3\pi/2$, needing a much deeper/wider well than nature provides. Hence deuteron has exactly one bound state (no excited states).
 
@@ -122,7 +122,7 @@ The well is shallow and narrow enough that it supports only a single s-wave boun
 
 ### Q2 — Magnetic moment discrepancy, effective range theory, "loose" structure
 
-**(a) Why $\mu_p+\mu_n \neq \mu_d$**
+**(a) ==Why $\mu_p+\mu_n \neq \mu_d$==**
 
 The measured deuteron moment ($\mu_d\approx0.857\mu_N$) is close to but not exactly $\mu_p+\mu_n\approx0.879\mu_N$ (simple sum for pure $^3S_1$ state with parallel spins). The ~2% discrepancy is explained by the deuteron ground state being **not purely $^3S_1$** but a mixture with a small (~4%) admixture of the $^3D_1$ state (d-state), caused by the **tensor force** component of the nucleon-nucleon interaction, which mixes different $l$ values while conserving total $J$. This D-state admixture also explains the deuteron's nonzero electric quadrupole moment.
 
