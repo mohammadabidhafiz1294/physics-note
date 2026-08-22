@@ -152,3 +152,33 @@ Identical derivations to 2022 Q7(a):
 - **(iii) 00l absent for l=2n+1** → **2₁ screw axis parallel to c** (or c-glide, if accompanied by a mirror; here indicates the screw axis).
 - **(iv) hk0 absent for h=2n+1** → **a-glide plane perpendicular to c** (glide translation ½ along a, reflection plane normal to c).
 
+
+---
+
+# 2019 — Question 7
+
+**(a) Define systematic absences. Deduce condition of absence for (i) 2₁ screw axis parallel to b, (ii) b-glide plane perpendicular to c**
+
+Definition as above.
+
+**(i) 2₁ screw axis parallel to b:** relates (x,y,z) to (−x, y+½, −z). For axial reflections 0k0 (h=l=0):
+F_0k0 = Σ fⱼ exp(2πikyⱼ)[1+exp(πik)]
+Vanishes when k is odd.
+**Condition: 0k0 absent for k = 2n+1.**
+
+**(ii) b-glide plane perpendicular to c:** relates (x,y,z) to (x, y+½, −z). For the hk0 zone (l=0):
+F_hk0 = Σ fⱼ exp[2πi(hxⱼ+kyⱼ)][1+exp(πik)]
+Vanishes when k is odd.
+**Condition: hk0 absent for k = 2n+1.**
+
+**(b) Identify the space group from absences in an orthorhombic lattice: (i) hkl absent for h+k+l=2n+1, (ii) 0kl absent for k=2n+1, (iii) h0l absent for l=2n+1, (iv) hk0 absent for h=2n+1**
+
+- **(i) hkl absent for h+k+l=2n+1** → **I (body-centred) lattice**.
+- **(ii) 0kl absent for k=2n+1** → **b-glide plane perpendicular to a**.
+- **(iii) h0l absent for l=2n+1** → **c-glide plane perpendicular to b**.
+- **(iv) hk0 absent for h=2n+1** → **a-glide plane perpendicular to c**.
+
+Combining the I-centring with the b-glide ⊥ a, c-glide ⊥ b, and a-glide ⊥ c (the same combination identified in the 2024 and 2022 papers):
+
+**Space group: Ibca (No. 73)**
+
