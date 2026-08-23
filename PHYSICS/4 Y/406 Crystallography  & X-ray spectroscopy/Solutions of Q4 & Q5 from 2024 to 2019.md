@@ -77,8 +77,7 @@ f = ∫₀^∞ 4πr²ρ(r) [sin(4πr sinθ/λ)/(4πr sinθ/λ)] dr
 
 At θ=0 (forward scattering), f = Z (all electrons scatter in phase); f decreases monotonically as sinθ/λ increases, because path differences among electrons within the atom cause increasing destructive interference.
 
-**(c) Scattered intensities from (111) and (200) of NaCl**
-
+**(c)==Scattered intensities from (111) and (200) of NaCl**==
 For the NaCl rock-salt structure (FCC, with Na⁺ at (0,0,0)+fcc and Cl⁻ at (½,0,0)+fcc):
 
 F_hkl = 4[f_Na + f_Cl exp{πi(h+k+l)}]  (using the standard NaCl structure-factor reduction)
@@ -117,7 +116,7 @@ For a simple cubic lattice with a=b=c and orthogonal axes, this is equivalent to
 
 which is exactly **Bragg's law**. Thus for a simple cubic lattice, satisfying the three Laue equations simultaneously is mathematically identical to satisfying the Bragg condition for the corresponding (hkl) planes — the Laue formulation (three simultaneous conditions in three dimensions) and the Bragg formulation (reflection from lattice planes) describe the same physical diffraction condition, viewed from atom-row-interference and plane-reflection perspectives respectively.
 
-**(c) Row spacing 7.7Å, incident angle 30°, diffraction angle 62°13′, λ=1.54Å: find order**
+**(c)==Row spacing 7.7Å, incident angle 30°, diffraction angle 62°13′, λ=1.54Å: find order**==
 
 Using the 1-D Laue (row) equation: a(cosφ − cosφ₀) = hλ
 
@@ -140,8 +139,7 @@ h = a(cosφ − cosφ₀)/λ = 7.7(0.4649 − 0.8660)/1.54 = 7.7(−0.4011)/1.54
 
 **f ~ sinθ/λ curve:** f starts at its maximum value f=Z at sinθ/λ=0 (forward scattering, all electrons scatter in phase), and decreases monotonically and smoothly as sinθ/λ increases, approaching zero at large sinθ/λ. The curve is concave, falling steeply at first and then leveling off — reflecting increasing destructive interference among electrons distributed over the finite size of the atom as the scattering angle (and hence path-difference) grows. Heavier atoms (larger Z) have systematically higher f curves throughout.
 
-**(b) Structure factor F_hkl for HCP cell; show intensity from (101) > (102)**
-
+**(b) ==Structure factor F_hkl for HCP cell; show intensity from (101) > (102)**==
 HCP has 2 atoms per unit cell at fractional coordinates (0,0,0) and (⅓,⅔,½).
 
 F_hkl = f[1 + exp{2πi(h/3+2k/3+l/2)}]
