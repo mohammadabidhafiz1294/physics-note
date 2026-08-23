@@ -31,7 +31,7 @@ Since |**G**_hkl| = 1/d_hkl and the geometry of **s**−**s₀** (unit vectors) 
 
 **λ = 2d sinθ** (n=1) or generally **nλ = 2d sinθ**
 
-**(c) 2θ for (321) plane: a=5Å, b=10Å, c=15Å, α=β=90°, γ=120°, λ=1.54Å**
+**(c) ==2θ for (321) plane: a=5Å, b=10Å, c=15Å, α=β=90°, γ=120°, λ=1.54Å**==
 
 For this monoclinic-type cell (a≠b≠c, γ=120°, α=β=90°), the general d-spacing formula (with only γ≠90°) is:
 
