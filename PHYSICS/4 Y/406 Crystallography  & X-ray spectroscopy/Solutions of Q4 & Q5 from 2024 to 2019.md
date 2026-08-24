@@ -321,7 +321,7 @@ or more generally, for a basis of several atoms of possibly different species, F
 
 **(b) Prove the equivalence of Bragg's and Laue's conditions for a simple cubic lattice** — identical to 2023 Q4(b): both reduce to λ=2d_hkl sinθ via S=G_hkl, |G_hkl|=1/d_hkl.
 
-**(c) Parallel beam at 30° to a row of scatterers; find diffracted angle for order h=−1**
+**(c) ==Parallel beam at 30° to a row of scatterers; find diffracted angle for order h=−1**==
 
 *(Row spacing not explicitly stated in this year's question as transcribed; assuming the standard spacing a=5λ used consistently in this course's problems, as in the closely related 2020 Q4(c) with identical setup):*
 
@@ -345,7 +345,7 @@ As derived in 2020 Q5(c): the **symmetry (geometric) factor** S_hkl = Σⱼexp[2
 
 i.e., the structure factor is the product of the purely electronic atomic scattering factor and the purely geometric symmetry factor.
 
-**(c) Structure factor for HCP cell; show intensity from (101) plane greater than (200)**
+**(c) ==Structure factor for HCP cell; show intensity from (101) plane greater than (200)**==
 
 *(Note: the question as transcribed says "(ii)" — this is almost certainly a transcription artifact for "(101)", consistent with the identical HCP problem in 2023 Q5(b) and 2021 Q5(b), which compares (101) to (102). Solved here for both the stated (200) and the more standard (102) for completeness.)*
 
