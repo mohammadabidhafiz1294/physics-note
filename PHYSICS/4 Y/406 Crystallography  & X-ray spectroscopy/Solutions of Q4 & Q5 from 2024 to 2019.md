@@ -190,6 +190,16 @@ Distance on flat film from centre: r = D tan(2θ) = 3 cm × tan(66.8°) = 3 × 2
 
 In the powder method, a finely powdered (polycrystalline) sample containing millions of randomly oriented tiny crystallites is placed in a monochromatic X-ray beam. For each set of (hkl) planes, some fraction of the crystallites will, by chance, be oriented at exactly the Bragg angle θ_hkl to the incident beam. Because of the random orientation distribution, the diffracted beams from all such correctly-oriented crystallites lie on the surface of a cone of semi-angle 2θ_hkl, coaxial with the incident beam. Recording this cone of diffracted rays on a strip of film (or with a counter) wrapped around the sample produces an arc (or, for a full circle, a ring) — the **diffraction line** — for each distinct d-spacing in the crystal.
 
+**Powder method-এ:**
+
+> একটি crystal-কে powder করে অসংখ্য randomly oriented crystallite তৈরি করা হয়। Monochromatic X-ray দিলে প্রতিটি `(hkl)` plane-এর কিছু crystallite এমন orientation পায় যাতে Bragg condition পূরণ হয়। তাদের diffracted X-ray 2θ কোণে একটি cone তৈরি করে। এই cone film/detector-এ পড়লে একটি diffraction line বা ring পাওয়া যায়। প্রতিটি line/ring crystal-এর একটি নির্দিষ্ট dhkl​ spacing-এর প্রতিনিধিত্ব করে।
+
+**এক লাইনে:**
+
+$$Random crystallites→Bragg diffraction→cone→ring/line​$$
+
+এটাই powder method-এর মূল ধারণা।
+
 **(b) Powder method vs Laue method — experimental comparison**
 
 | Feature | Powder method | Laue method |
@@ -206,6 +216,14 @@ In the powder method, a finely powdered (polycrystalline) sample containing mill
 
 **Graphical indexing (rotating crystal method):** As the crystal rotates about a chosen axis (say c), reciprocal lattice points sweep through the sphere of reflection in layers, producing layer lines on the cylindrical film corresponding to l=0,1,2,… (spacing between layer lines gives the identity period along the rotation axis via the standard tanμ = y/R relation). Within each layer line, the spot positions are plotted onto a graphical net (e.g. a Bernal chart), which unrolls the geometry of the reciprocal lattice layer intersecting the sphere of reflection; matching observed spot coordinates to the net's grid directly yields the (hk) indices for each spot in that layer (with l fixed by the layer number), without needing detailed calculation for every reflection.
 
+### পুরো প্রক্রিয়াটি একসাথে
+
+$$Crystal rotate→Reciprocal-lattice-points-move→Layer-lines→l নির্ণয়→Bernal chart→h,k নির্ণয়→(hkl)​$$
+
+### খুব সহজ ভাষায় মূল কথাটি
+
+**Graphical indexing-এর উদ্দেশ্য হলো diffraction photograph-এর প্রতিটি spot-কে তার সঠিক `(hkl)` পরিচয় দেওয়া।** Crystal-কে একটি নির্দিষ্ট axis, যেমন c-axis, বরাবর rotate করলে diffraction spots বিভিন্ন **layer line**-এ সাজে। Layer line-এর অবস্থান থেকে l index নির্ধারণ করা যায়। এরপর প্রতিটি layer-এর spot-এর position **Bernal chart**-এর মতো graphical net-এর সঙ্গে মিলিয়ে h ও k বের করা হয়। ফলে প্রতিটি diffraction spot-এর সম্পূর্ণ **Miller index `(hkl)`** পাওয়া যায়। এই indexing-এর সাহায্যে পরে crystal-এর **unit-cell dimensions a,b,c** নির্ণয় করা সম্ভব হয়।
+
 
 ---
 
@@ -218,7 +236,7 @@ In the powder method, a finely powdered (polycrystalline) sample containing mill
 
 **(b) Prove the equivalence of Bragg's and Laue's conditions for a simple cubic lattice** — identical derivation to 2023 Q4(b): both reduce to λ = 2d_hkl sinθ via the reciprocal-lattice relation S=G_hkl and |G_hkl|=1/d_hkl.
 
-**(c) Row spacing 7.7Å, incident angle 30°, diffraction angle 62°13′, λ=1.54Å: find order** — identical calculation to 2023 Q4(c):
+**(c) ==Row spacing 7.7Å, incident angle 30°, diffraction angle 62°13′, λ=1.54Å: find order** — ==identical calculation to 2023 Q4(c):
 
 h = a(cosφ−cosφ₀)/λ = 7.7(cos62.217°−cos30°)/1.54 = 7.7(0.4649−0.8660)/1.54 ≈ **−2**
 
@@ -236,7 +254,7 @@ This is the **exponential form** of the structure factor: a complex-number sum o
 
 |F₁₀₁|² = 3f², |F₁₀₂|² = f² ⟹ **(101) is three times stronger than (102)**.
 
-**(c) Powder diffraction, cubic crystal, 2θ = 38°, 44.2°, 81.4°; λ=1.54Å, a=4.10Å — find Miller indices and lattice type**
+**(c) ==Powder diffraction, cubic crystal, 2θ = 38°, 44.2°, 81.4°; λ=1.54Å, a=4.10Å — find Miller indices and lattice type**==
 
 sin²θ = (λ²/4a²)(h²+k²+l²) → sin²θ ∝ N = h²+k²+l²
 
@@ -283,7 +301,7 @@ cosφ = cosφ₀ + hλ/a = cos30° + (−1)λ/(5λ) = 0.8660 − 0.20 = 0.6660
 
 ## Question 5
 
-**(a) Powder experiment: first line at 2θ=38°; find Miller index [CuKα, a=4.10Å]**
+**(a) ==Powder experiment: first line at 2θ=38°; find Miller index== [CuKα, a=4.10Å]**
 
 θ = 19°, sinθ = 0.3256, sin²θ = 0.1060
 
@@ -294,7 +312,7 @@ N = sin²θ/0.03535 = 0.1060/0.03535 ≈ **3.0**
 
 N=3 corresponds to Miller indices **(111)**.
 
-**(b) Structure factor for NaCl; show (111) < (200)**
+**(b) ==Structure factor for NaCl; show (111) < (200)**==
 
 As derived in 2024 Q5(c): |F₁₁₁|²=16(f_Na−f_Cl)² and |F₂₀₀|²=16(f_Na+f_Cl)². Since (f_Na+f_Cl)² > (f_Na−f_Cl)² for any f_Na≠f_Cl of the same sign, **|F₂₀₀|² > |F₁₁₁|²**, i.e. the **scattered intensity from (200) is greater than from (111)** — consistent with the required result.
 
@@ -302,9 +320,9 @@ As derived in 2024 Q5(c): |F₁₁₁|²=16(f_Na−f_Cl)² and |F₂₀₀|²=16
 
 The **structure factor** can always be factorised as:
 
-F_hkl = f × S_hkl (for a single-atom-type basis)
+$$F_{hkl} = f × S_{hkl}$$ (for a single-atom-type basis)
 
-or more generally, for a basis of several atoms of possibly different species, F_hkl = Σⱼfⱼ Sⱼ(hkl), where the **symmetry factor** (also called the geometric or lattice factor) S_hkl = Σⱼ exp[2πi(hxⱼ+kyⱼ+lzⱼ)] depends only on the positions of the atoms within the cell (geometry/symmetry), while the **atomic scattering factor** fⱼ depends only on the electronic structure of each atom (how strongly that species scatters). Thus: **structure factor = atomic scattering factor × symmetry (geometric) factor**, i.e. the total scattering amplitude separates into a purely chemical/electronic part (f) and a purely geometric/positional part (S), with systematic absences arising when S_hkl = 0 for particular (hkl) classes regardless of which atoms are present.
+or more generally, for a basis of several atoms of possibly different species, $F_{hkl} = Σⱼfⱼ Sⱼ_{hkl}$, where the **symmetry factor** (also called the geometric or lattice factor) $S_hkl = Σⱼ exp[2πi(hxⱼ+kyⱼ+lzⱼ)$] depends only on the positions of the atoms within the cell (geometry/symmetry), while the **atomic scattering factor** fⱼ depends only on the electronic structure of each atom (how strongly that species scatters). Thus: **structure factor = atomic scattering factor × symmetry (geometric) factor**, i.e. the total scattering amplitude separates into a purely chemical/electronic part (f) and a purely geometric/positional part (S), with systematic absences arising when S_hkl = 0 for particular (hkl) classes regardless of which atoms are present.
 
 
 ---
